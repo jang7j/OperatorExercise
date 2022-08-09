@@ -31,11 +31,18 @@ namespace OperatorExercise
             return a % b;
         }
 
-       
+        //Exercise 2
 
-    
+        public static double AreaOfCircle(double radius)
+        {
+            return Math.PI * Math.Pow(radius, 2);
+        }
 
-        
+
+
+
+
+
     }
 
 }
